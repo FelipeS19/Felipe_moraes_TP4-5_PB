@@ -1,0 +1,10 @@
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .custom-checkbox span {
+    margin-left: 10px;
+  }
+  

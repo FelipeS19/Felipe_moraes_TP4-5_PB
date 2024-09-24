@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/fundo.jpg');
+    background-size: cover;
+}
+
+
+.container-fornecedor {
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+.table-row-hover:hover {
+    background-color: rgba(0, 0, 0, 0.575);
+    transition: background-color 0.3s ease; 
+}
+
+.table-container {
+    max-height: 400px;
+    overflow-y: auto; 
+    margin-bottom: 20px;
+}
+.ReactModal__Overlay {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    height: 100vh;  
+}
+
+.ReactModal__Content {
+    background: white;
+    border-radius: 5px;
+    outline: none;
+    max-width: 500px;
+    width: 90%; 
+    box-shadow: 0 2px 10px rgb(0, 0, 0);
+    z-index: 1001; 
+    margin: 0 auto; 
+    padding: 20px; 
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+li:hover {
+    text-decoration: underline;
+}

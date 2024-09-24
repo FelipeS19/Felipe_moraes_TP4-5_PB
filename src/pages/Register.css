@@ -1,0 +1,36 @@
+/* src/styles/Register.css */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url("../assets/fundo.jpg");
+  background-size: cover;
+  padding: 1rem;
+}
+
+.register-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: auto;
+  padding: 2rem;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  width: 100%;
+}
+
+.register-content > * {
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .register-container {
+    padding: 2rem;
+  }
+
+  .register-content > * {
+    margin: 1.5rem 0;
+  }
+}

@@ -1,0 +1,26 @@
+/* src/styles/Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url('../assets/fundo.jpg');
+    background-size: cover;
+}
+
+.home-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.521); 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
+    backdrop-filter: blur(10px);
+    margin: 1rem;
+    border-radius: 8px;
+}
+
+.home-content > * {
+    margin: 1rem 0;
+}
